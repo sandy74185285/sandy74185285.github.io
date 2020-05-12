@@ -1,0 +1,79 @@
+aside{								/*我的連絡資訊部分*/
+margin: 1% 1% 1% 1%;
+text-align: center;
+border-style:double;
+border-width: 5px;
+width: 21%;
+padding: 0.5% 3% 2% 3%;
+position: absolute;
+top: 130%;
+left:65%;
+}
+.type{								/*座右銘段落*/
+background-color: #D9B3B3;
+width: 110%;
+margin-left: -5%;
+margin-top: 8%;
+}
+.typetit{							/*座右銘字體*/
+font-size: 130%;
+font-family: "微軟正黑體";
+line-height:200%;
+padding-left: 27%;
+}
+.typetit:hover{						/*座右銘字體特效*/
+color: #613030;
+font-size: 150%;
+font-weight: bold;
+}
+.typeimg{							/*座右銘icon*/
+width: 7%;
+margin: 2% -1% -1% 2%;
+}
+.typeimg:hover{						/*座右銘icon特效*/
+color: #613030;
+width: 8%;
+font-weight: bold;
+}
+#typecon{							/*座右銘內文div*/
+background-color: #F2E6E6;
+padding: 2% 2% 2% 5%;
+}
+.typetxt{							/*座右銘內文字體*/
+text-align: center;
+font-size: 80%;
+font-family: "微軟正黑體";
+font-weight: bold;
+line-height:225%;
+}
+.typetxt:hover{						/*座右銘內文特效*/
+color: #613030;
+font-size: 100%;
+font-weight: bold;
+}
+.contxt1{							/*我的連絡資訊字體*/
+font-size: 210%;
+font-weight: bold;
+color: #44546A;
+text-decoration: underline;
+padding-top:10%; 
+}
+.contxt1:hover{						/*我的連絡資訊特效*/
+font-size: 190%;
+}
+.contxt2{							/*電話地址字體*/
+font-size: 130%;
+padding: 1%;
+text-align: center;
+}
+.contxt2:hover{						/*電話地址特效*/
+font-size: 140%;
+}
+.conimg{							/*我的連絡資訊icon*/
+padding: 3%;
+margin:10% 2% 0% 1%;
+width: 20%;
+}
+.conimg:hover{						/*我的連絡資訊icon特效*/
+width: 23%;
+}

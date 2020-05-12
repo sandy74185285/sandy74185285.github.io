@@ -1,0 +1,14 @@
+nav{
+background-color: #D9B3B3;
+}
+a.menu{								/*選單列*/
+text-decoration: none;
+color: black;
+font-size: 150%;
+padding-left: 8%;
+}
+.menu:hover{						/*選單列特效*/
+color: #F2E6E6;
+font-size: 160%;
+font-weight: bold;
+}

@@ -1,0 +1,99 @@
+
+div.act{
+width: 61%;							/*連動照片*/
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+overflow: hidden;
+border-top: 1px solid #613030;
+border-bottom: 1px solid gray;
+position: relative;
+top: 93%;
+margin-left: 2%;
+}
+div.act >img{						/*連動照片的圖*/
+margin: 5px 7px 5px 2px;
+}
+div.act:hover >img:nth-of-type(1) {	/*連動照片特效*/
+margin-left: -550px;
+-webkit-transition: 3s linear;
+-moz-transition: 3s linear;
+-o-transition: 3s linear;
+-ms-transition: 3s linear;
+transition: 3s linear;
+}
+.target{							/*個人目標段落*/
+background-color: #D9B3B3;
+width: 61%;
+position: relative;
+top:130%;
+left:2%;
+}
+.targettit{							/*個人目標字體*/
+font-size: 150%;
+font-family: "微軟正黑體";
+padding-left: 35%;
+}
+.targettit:hover{					/*個人目標字體特效*/
+color: #613030;
+font-size: 155%;
+font-weight: bold;
+}
+.targetimg{							/*個人目標icon*/
+width: 3%;
+margin: 2% 1% 0% 3%;
+}
+.targetimg:hover{					/*個人目標icon特效*/
+color: #613030;
+width: 5%;
+font-weight: bold;
+}
+#targetcon{							/*個人目標內文div*/
+background-color: #F2E6E6;
+padding: 2% 2% 2% 5%;
+}
+.targettxt{							/*個人目標內文字體*/
+text-align: center;
+font-size: 100%;
+font-family: "微軟正黑體";
+font-weight: bold;
+padding-left: 20%;
+}
+.targettxt:hover{					/*個人目標內文特效*/
+color: #613030;
+font-size: 105%;
+font-weight: bold;
+}
+.life{
+background-color: #D9B3B3;
+width: 61%;
+height: 1%;
+position: relative;
+top:200%;
+left:2%;
+}
+.lifetit{
+font-size: 150%;
+font-family: "微軟正黑體";
+padding-left: 35%;
+}
+.lifetit:hover{						/*生活紀錄字體特效*/
+color: #613030;
+font-size: 155%;
+font-weight: bold;
+}
+.lifeimg{							/*生活紀錄icon*/
+width: 3%;
+margin: 2% 1% 0% 3%;
+}
+.lifeimg:hover{					/*生活紀錄icon特效*/
+color: #613030;
+width: 5%;
+font-weight: bold;
+}
+.lifepic{								/*生活紀錄圖片*/
+background-color: #F2E6E6;
+}
+.pic{								/*生活紀錄圖片*/
+padding: 2% 0.9% 0.9% 15%;
+}
