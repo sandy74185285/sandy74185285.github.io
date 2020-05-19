@@ -1,0 +1,82 @@
+#skills{								/*skills part*/
+width:34.5%;
+font-family: "微軟正黑體";
+margin-top: 0.5%;
+padding:0.1% 2% 1% 3%;
+position: absolute;
+left:50.5%;
+float:right;
+}
+.skillstit{								/*skills 標題字體*/
+font-size: 130%;
+font-weight: bolder;
+color: #E5E5E5;
+}
+.skillstit:hover{
+color: #D9C590;	
+font-size: 135%;
+}
+.skillbox{								/*skills內文字體*/
+box-sizing: border-box;
+flex-direction: row;
+padding: 1.55%;
+color:#E5E5E5;
+font-family: "微軟正黑體";
+font-size: 100%;
+}
+.skillbox:hover{
+color: #D9C590;	
+font-size: 110%;
+}
+.skill{									/*barbox底色*/
+background-color: #4E4D3F;/*卡其底框*/
+padding: 1.5%;
+box-sizing: border-box;
+color:white;
+border-radius: 50px;
+}
+.skill_level{							/*barbox跑動部分*/
+background-color: #CCA43B;/*黃*/
+border-radius: 50px;
+text-align: right;
+}
+.c{
+animation-name: skillc;
+animation-duration: 2s;
+}
+.java{
+animation-name: skilljava;
+animation-duration: 2s;
+}
+.html{
+animation-name: skillhtml;
+animation-duration: 2s;
+}
+.android{
+animation-name: skillandroid;
+animation-duration: 2s;
+}
+.ios{
+animation-name: skillios;
+animation-duration: 2s;
+}
+@keyframes skillc{
+0%{width: 0%}
+100%{width: 80%}
+}
+@keyframes skilljava{
+0%{width: 0%}
+100%{width: 80%}
+}
+@keyframes skillhtml{
+0%{width: 0%}
+100%{width: 80%}
+}
+@keyframes skillandroid{
+0%{width: 0%}
+100%{width: 75%}
+}
+@keyframes skillios{
+0%{width: 0%}
+100%{width: 60%}
+}

@@ -1,0 +1,49 @@
+#information{					/*個人資訊 part*/
+width: 70%;
+font-family: "微軟正黑體";
+padding: 1% 0% 1% 1%;
+position: relative;
+left:15%;
+}
+#mjimg{							/*mj照片*/
+width: 40%;
+border-radius:80%;
+float: left;
+padding-left: 8%;
+padding-right: 8%;
+}
+.informationtxt{				/*個人資訊內容字體*/
+color: #E5E5E5;
+}
+.nametxt{						/*謝旻潔mj字體*/
+font-size: 200%;
+color: #CCA43B;
+font-weight: bolder;	
+}
+.schtxt{						/*中原字體*/
+font-size: 120%;
+}
+.motto{							/*座右銘字體*/
+font-size: 110%;
+}
+.motto:hover{
+font-size: 115%;
+color: #C48888;
+font-weight: bolder;
+}
+.pic{							/*personalweb*/
+width: 22%;
+padding: 1% 1% 1% 0%;
+transition: width 1s;
+}
+.pic:hover{						
+width:23%;	
+}
+.pic1{							/*icon*/
+width:4%;				
+padding: 1% 1.5% 2% 0%;
+transition: width 1s;
+}
+.pic1:hover{					/*icon*/
+width:5%;	
+}
