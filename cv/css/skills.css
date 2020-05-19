@@ -19,7 +19,7 @@ font-size: 135%;
 .skillbox{								/*skills內文字體*/
 box-sizing: border-box;
 flex-direction: row;
-padding: 1.5%;
+padding: 1.3%;
 color:#E5E5E5;
 font-family: "微軟正黑體";
 font-size: 100%;
