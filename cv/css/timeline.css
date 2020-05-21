@@ -5,7 +5,7 @@ box-sizing: border-box;
 width:70%;
 position: relative;
 left: 15%;
-margin-top: 27%;
+margin-top: 32%;
 }
 .timeline {
 position: relative;
@@ -91,21 +91,6 @@ padding: 1% 12% 5% 12%;
 background-color: white;
 position: relative;
 border-radius: 6px;
-}
-.pic10701{
-padding: 1.5%;
-}
-.pic10702{
-padding: 1.5%;
-}
-.pic10802{
-padding: 1.5%;
-}
-.pic10802t{
-transition: width 1s;
-}
-.pic10802t:hover{
-width: 40%;
 }
 a{
 font-size: 110%;

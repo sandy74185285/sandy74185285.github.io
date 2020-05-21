@@ -1,16 +1,35 @@
+.pic10701{
+padding: 1.5%;
+}
+.pic10702{
+padding: 1.5%;
+}
+.pic10802{
+padding: 1.5%;
+}
+.pic10802t{
+transition: width 1s;
+}
+.pic10802t:hover{
+width: 40%;
+}
+.boxtxt{
+font-family: "微軟正黑體";
+font-size: 120%; 
+}
 /* Unopened lightbox */
 .lightbox {
 display: none;
 }
 /* Opened lightbox */
 .lightbox:target {
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
+position: absolute;
+left: -100%;
+top: 10%;
 display: flex;
+top:0; 
 align-items: center;
-justify-content: center;
+justify-content:center;
 z-index: 2;
 }
 /* Lightbox content */
